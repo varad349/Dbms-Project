@@ -1,0 +1,52 @@
+* {
+    font-family: "Roboto Light", sans-serif;
+}
+
+#manage-members:hover,
+#manage-books:hover,
+#issue-books:hover,
+#handle-returns:hover {
+    background-color: rgba(187, 167, 131, 0.5) !important;
+    color: white;
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before,
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 2px solid white !important;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after,
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 2px solid lightblue !important;
+}
+
+#search-field, #search-field-label {
+    color: white !important;
+}
+
+.lms-input-field>label, .lms-input-field>div>input {
+    color: white !important;
+}
+
+.lms-input-field>p {
+    color: yellow !important;
+    font-weight: bold;
+}
+
+.lms-grid {
+    background-color: transparent !important;
+}
+
+.lms-grid .MuiDataGrid-cell,
+.lms-grid .MuiDataGrid-columnHeader,
+.lms-grid .MuiTablePagination-root {
+    color: white;
+}
+
+.lms-grid .MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.MuiFormLabel-asterisk {
+    color: white !important;
+}
